@@ -15,20 +15,22 @@
   <div class="col-xs-12 col-sm-4">
     
     <!--The link below is an relative path. It creates a url as localhost:4200/servers/servers-->
-    <a routerLink="servers">servers</a> 
-    <a routerLink="servers">./servers</a> 
+    <!--<a routerLink="servers">servers</a> -->
+    <!--<a routerLink="servers">./servers</a> -->
 
     <!--The link below is an absolute path. It creates a url as localhost:4200/servers/servers-->
-    <a routerLink="/servers">/servers</a> 
+    <!--<a routerLink="/servers">/servers</a> -->
 
     <!--Below navigates to localhost:4200/servers, since it goes back one level-->
-    <a routerLink="../servers">../servers</a> 
+    <!--<a routerLink="../servers">../servers</a> -->
 
-    <button class="btn-primary" (click)="onReload()" >Reload</button>
+    <!--<button class="btn-primary" (click)="onReload()" >Reload</button>-->
 
-    <app-edit-server></app-edit-server>
-    <hr>
-    <app-server></app-server>
+    <!--<app-edit-server></app-edit-server>-->
+    <!--<hr>-->
+    <!--<app-server></app-server>-->
+
+    <router-outlet></router-outlet>
   </div>
 </div>
 
